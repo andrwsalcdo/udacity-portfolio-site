@@ -1,12 +1,38 @@
 /*My main css file. I write this code*/
 
+body {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+}
+
+
 /*problem: navbar covering the content.
 solution: lower the content below the navbar*/
 .header-container {
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
-/* text center the links & project titles*/
+/* text center: the links & project titles*/
 .project-link, h3, h2 {
   text-align: center;
+}
+
+/*update Unicode Logo: AS. initials*/
+.logo-unicode {
+  margin-left: 5px;
+  font: italic 3em uppercase;
+}
+.my-logo {
+  text-align: left;
+  vertical-align: middle;
+}
+
+/*Font-size of Name*/
+.my-name {
+  font-size: 40px;
+}
+
+/*Make My-name & Featured works thinner in font*/
+.text-thin {
+  font-weight: 100;
 }
