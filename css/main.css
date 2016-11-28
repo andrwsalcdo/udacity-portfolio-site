@@ -1,0 +1,7 @@
+/*My main css file. I write this code*/
+
+/*problem: navbar covering the content.
+solution: lower the content below the navbar*/
+.header-container {
+  padding-top: 70px;
+}
