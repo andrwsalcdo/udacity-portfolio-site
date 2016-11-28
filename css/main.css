@@ -5,3 +5,8 @@ solution: lower the content below the navbar*/
 .header-container {
   padding-top: 70px;
 }
+
+/* text center the links & project titles*/
+.project-link, h3, h2 {
+  text-align: center;
+}
