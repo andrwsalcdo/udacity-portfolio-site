@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="../../favicon.ico">
   <title>My Portfolio Project FEND Udacity</title>
+  <!-- Jquery before the JS  -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <!--Bootstrap Javascript minified  -->
   <script src="js/bootstrap.min.js"></script>
-  <!-- Bootstrap Theme CSS  -->
-  <link href="css/boostrap-theme.min.css" rel="stylesheet">
   <!-- Bootstrap Core minified CSS   -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Main CSS.TODO ACTION ITEMS: MAKE THIS A MINIFIED CSS FILE USING GRUNT -->
@@ -89,7 +88,7 @@
         <section class="col-md-4 col-sm-4 col-lg-4">
             <!--TODO: make the images with srcset and media query  -->
             <img src="img/mockup-to-article.PNG" alt="blog mockup design"
-            class="img-responsive img img-rounded">
+            class="img-responsive img img-rounded" data-toggle="modal" data-target="#project1">
             <h3 class="text-uppercase text-light">Mockup to Article</h3>
             <p class="project-link">
               <a href="https://github.com/asalcedo07/mockup-to-article-project" class="fa fa-github fa-lg" aria-hidden="true"></a>
@@ -98,7 +97,7 @@
         <section class="col-md-4 col-sm-4 col-lg-4">
           <!--TODO: make the images with srcset and media query  -->
           <img src="img/animal-card.PNG" alt="Chewbacca trading card"
-          class="img-responsive img img-rounded">
+          class="img-responsive img img-rounded"  data-toggle="modal" data-target="#project2">
           <h3 class="text-uppercase text-light">Animal Trading Card</h3>
           <p class="project-link">
             <a href="https://github.com/asalcedo07/animal-trading-card" class="fa fa-github fa-lg" aria-hidden="true"></a>
@@ -106,8 +105,8 @@
         </section>
         <section class="col-md-4 col-sm-4 col-lg-4">
             <!--TODO: make the images with srcset and media query  -->
-            <img src="http://lorempixel.com/400/300/nature/4" alt="nature"
-            class="img-responsive img img-rounded">
+            <img src="http://lorempixel.com/400/300/nature/4" alt="fall trees"
+            class="img-responsive img img-rounded"  data-toggle="modal" data-target="#project3">
             <h3 class="text-uppercase text-light">Three</h3>
             <p class="project-link">
               <a href="https://github.com/asalcedo07" class="fa fa-github fa-lg" aria-hidden="true"></a>
@@ -139,14 +138,63 @@
 
   </div>   <!--/.div container -->
 
+  <!-- Modals begin -->
 
+  <!-- modal 1 -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1">Mockup to Article</h4>
+            </div>
+            <div class="modal-body"> <img class="img-responsive img-rounded" src="img/mockup-to-article.PNG" alt="blog mockup design">
+                <div class="modal-text">
+                    <p>The first project in the Front-End Web Developer Nanodegree program. The goal was to translate a simple design mockup into working HTML.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- modal 2 -->
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel2">Animal Trading Card</h4>
+            </div>
+            <div class="modal-body"> <img class="img-responsive img-rounded" src="img/animal-card.PNG" alt="Chewbacca trading card">
+                <div class="modal-text">
+                    <p> Given an HTMl structure, use CSS to convert a design prototype of an animal trading card into a functional page. I chose a different animal, changed HTML content and used CSS to complete the project. </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- modal 3 -->
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel3">Three</h4>
+            </div>
+            <div class="modal-body"> <img class="img-responsive img-rounded" src="http://lorempixel.com/400/300/nature/4" alt="fall trees">
+                <div class="modal-text">
+                    <p>This project is TBD. I'm sure I'll learn a lot more.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
 
-
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-  <script src="js/bootstrap.min.js"></script>
+  <!-- Modals end -->
 </body>
 </html>
