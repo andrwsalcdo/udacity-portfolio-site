@@ -23,6 +23,7 @@ solution: lower the content below the navbar*/
   font: italic 3em uppercase;
 }
 .my-logo {
+  font-size: 22px;
   text-align: left;
   vertical-align: middle;
 }
@@ -35,4 +36,15 @@ solution: lower the content below the navbar*/
 /*Make My-name & Featured works thinner in font*/
 .text-thin {
   font-weight: 100;
+}
+/* decrease font weightness on h3 */
+.text-light {
+  font-weight: 250;
+}
+/*add color,border,margins to the borders after header and before footer*/
+hr {
+  border: 0;
+  border-top: 1px solid #7d97ad;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
