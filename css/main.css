@@ -67,6 +67,21 @@ img {
   font-size: 16px;
 }
 
+/* hover over bottom images*/
+
+.hover-zoom figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover-zoom figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
 @media (min-width: 320px) and (max-width: 767px) {
   .my-logo {
     text-align: center;
