@@ -18,10 +18,6 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- Main CSS.TODO ACTION ITEMS: MAKE THIS A MINIFIED CSS FILE USING GRUNT -->
 	<link href="css/main.css" rel="stylesheet">
-	<!-- Custom styles for this navbar-fixed template -->
-	<!--TODO: get this working. this css link isn't working. jquery? idk?  -->
-	<link href="navbar-fixed-top.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -62,17 +58,17 @@
 
 		<!--  head section containter: logo, name, breakline + big image.-->
 		<header class="row header-container">
-			<section class="col-md-6 my-logo">
+			<div class="col-md-6 my-logo">
 				<!-- logo image goes here. css? svg? unicdoe? f  -->
 				<h1 class="logo-unicode">𝐴𝑆</h1>
-			</section>
-			<section class="col-md-6 text-right text-uppercase my-name">
+			</div>
+			<div class="col-md-6 text-right text-uppercase my-name">
 				<h1 class="text-thin">Andrew Salcedo</h1>
 				<h4>Front-End Developer</h4>
-			</section>
-			<section class="col-md-12">
+			</div>
+			<div class="col-md-12">
 				<hr>
-			</section>
+			</div>
 			<figure class="col-sm-12 col-md-12 col-lg-12">
 				<picture class="col-sm-12 col-md-12 col-lg-12">
 					<!--TODO: make the images with srcset and media query  -->
@@ -95,7 +91,7 @@
 					<figure class="col-md-4 col-sm-4 col-lg-4">
 						<!--TODO: make the images with srcset and media query  -->
 						<picture>
-							<img src="img/blog-3.4.jpeg" alt="blog mockup design" class="img-responsive img img-rounded"
+							<img src="img/mockup-devtool-3.4.jpeg" alt="blog mockup design" class="img-responsive img img-rounded"
 							data-toggle="modal" data-target="#project1">
 						</picture>
 						<figcaption class="project-link">
@@ -164,14 +160,13 @@
 	<!-- Modals begin -->
 
 	<!-- modal 1 -->
-	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-hidden="true"
-	style="display: none;">
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h3 class="modal-title" id="myModalLabel1">Mockup to Article</h3>
 				</div>
-				<div class="modal-body"> <img class="img-responsive img-rounded" src="img/mockup-to-article.jpeg"
+				<div class="modal-body"> <img class="img-responsive img-rounded" src="img/mockup-devtool.jpeg"
 					alt="blog mockup design">
 					<div class="modal-text">
 						<p>The first project in the Front-End Web Developer Nanodegree program.
@@ -185,8 +180,7 @@
 		</div>
 	</div>
 	<!-- modal 2 -->
-	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-hidden="true"
-	style="display: none;">
+	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -207,8 +201,7 @@
 		</div>
 	</div>
 	<!-- modal 3 -->
-	<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-hidden="true"
-	style="display: none;">
+	<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">

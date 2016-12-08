@@ -91,6 +91,13 @@ img {
   background-color: #EBEEF0;
 }
 
+/*all modals */
+#project1,
+#project2,
+#project3 {
+  display: none;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
 
   .my-logo {
