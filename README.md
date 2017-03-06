@@ -9,4 +9,4 @@ https://storage.googleapis.com/supplemental_media/udacityu/2655898586/design-moc
 
 Encouraged to implement custom changes to the design (colors, interactivity, etc) rather than fierce adherence to the design mockup.
 
-Project Submit: https://asalcedo07.github.io/udacity-portfolio-site/
+Project Submit: [Click Here](https://andrwsalcdo.github.io/udacity-portfolio-site/)
