@@ -56,6 +56,7 @@ hr {
 img {
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer; 
 }
 
 /* putting some room in between the 'featured works and the projects'*/
@@ -114,5 +115,5 @@ img {
 }
 
 span>a {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
