@@ -1,0 +1,119 @@
+/*My main css file. I write this code*/
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+
+
+/*problem: navbar covering the content.
+solution: lower the content below the navbar*/
+.header-container {
+  margin-top: 70px;
+}
+
+/* text center: the links & project titles*/
+.project-link,
+h3,
+h2 {
+  text-align: center;
+}
+
+/*update Unicode Logo: AS. initials*/
+.logo-unicode {
+  margin-left: 5px;
+  font: italic 3em uppercase;
+}
+
+.my-logo {
+  font-size: 22px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/*Font-size of Name*/
+.my-name {
+  font-size: 40px;
+}
+
+/*Make My-name & Featured works thinner in font*/
+.text-thin {
+  font-weight: 100;
+}
+/* decrease font weightness on h3 */
+.text-light {
+  font-weight: 200;
+}
+/*add color,border,margins to the borders after header and before footer*/
+hr {
+  border: 0;
+  border-top: 1px solid #7d97ad;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*centering image*/
+img {
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer; 
+}
+
+/* putting some room in between the 'featured works and the projects'*/
+.featured-header {
+  margin-bottom: 15px;
+}
+
+/* changing the text in modals*/
+.modal-text {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* hover over bottom images*/
+
+.hover-zoom figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover-zoom figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.footer-box {
+  margin-top: 15px;
+  width: 100%;
+  height: 75px;
+  background-color: #EBEEF0;
+}
+
+/*all modals */
+#project1,
+#project2,
+#projectSample {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .my-logo {
+    text-align: center;
+  }
+
+  .my-name {
+    text-align: center;
+  }
+
+  figcaption {
+    margin-bottom: 10px;
+  }
+}
+
+span>a {
+  margin-bottom: 10px;
+}

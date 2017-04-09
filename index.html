@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>My Portfolio Project FEND Udacity</title>
+	<!--google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Kanit:100,400" rel="stylesheet">
+	<!-- Script for Fontawesome Social Icons In the Footer -->
+	<script src="https://use.fontawesome.com/1d90851389.js"></script>
+	<!-- Bootstrap Core minified CSS   -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Main CSS.TODO ACTION ITEMS: MAKE THIS A MINIFIED CSS FILE USING GRUNT -->
+	<link href="css/main.css" rel="stylesheet">
+	<!-- Jquery before the JS  -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!--Bootstrap Javascript minified  -->
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<!-- ALl the content container. big big box :D -->
+	<div class="container">
+
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"></a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a>
+						</li>
+						<li><a href="#cv">CV</a>
+						</li>
+						<li><a href="#projects">Projects</a>
+						</li>
+						<li><a href="#about">About</a>
+						</li>
+						<li><a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+		</nav>
+
+		<!--  head section containter: logo, name, breakline + big image.-->
+		<header class="row header-container">
+			<div class="col-md-6 my-logo">
+				<!-- logo image goes here. css? svg? unicdoe? f  -->
+				<h1 class="logo-unicode">𝐴𝑆</h1>
+			</div>
+			<div class="col-md-6 text-right text-uppercase my-name">
+				<h1 class="text-thin">Andrew Salcedo</h1>
+				<h4>Front-End Developer</h4>
+			</div>
+			<div class="col-md-12">
+				<hr>
+			</div>
+			<figure class="col-sm-12 col-md-12 col-lg-12">
+				<picture class="col-sm-12 col-md-12 col-lg-12">
+					<!--TODO: make the images with srcset and media query  -->
+					<img src="http://lorempixel.com/1100/500/nature/5" alt="beach and sun"
+					class="img-responsive img-rounded img-head">
+				</picture>
+			</figure>
+		</header>
+
+
+		<!--  Featured Work begins: Projects shown here. Title, imgages, breakline-->
+		<section class="row featured-work-container">
+			<div class="col-md-12">
+				<header class="row featured-header">
+					<div class="col-md-12">
+						<h2 class="text-thin">Featured Work</h2>
+					</div>
+				</header>
+				<figure class="row hover-zoom">
+					<figure class="col-md-4 col-sm-4 col-lg-4">
+						<!--TODO: make the images with srcset and media query  -->
+						<picture>
+							<img src="img/mockup-article.jpeg" alt="blog mockup design" class="img-responsive img img-rounded"
+							data-toggle="modal" data-target="#project1">
+						</picture>
+						<figcaption class="project-link">
+							<h3 class="text-uppercase text-light">Mockup to Article</h3>
+							<span>
+                <a href="https://github.com/andrwsalcdo/udacity-mockup-to-article-project" class="fa fa-github fa-lg" aria-hidden="true"></a>
+              </span>
+						</figcaption>
+					</figure>
+					<figure class="col-md-4 col-sm-4 col-lg-4">
+						<picture>
+							<!--TODO: make the images with srcset and media query  -->
+							<img src="img/animal-3.4.jpeg" alt="Chewbacca trading card" class="img-responsive img img-rounded"
+							data-toggle="modal" data-target="#project2">
+						</picture>
+						<figcaption class="project-link">
+							<h3 class="text-uppercase text-light">Animal Trading Card</h3>
+							<span>
+              <a href="https://github.com/andrwsalcdo/udacity-animal-trading-card" class="fa fa-github fa-lg" aria-hidden="true"></a>
+            </span>
+						</figcaption>
+					</figure>
+					<figure class="col-md-4 col-sm-4 col-lg-4">
+						<picture>
+							<!--TODO: make the images with srcset and media query  -->
+							<img src="img/HanResume.JPG" alt="Interactive Resume" class="img-responsive img img-rounded"
+							data-toggle="modal" data-target="#project4">
+						</picture>
+						<figcaption class="project-link">
+							<h3 class="text-uppercase text-light">Interactive Resume</h3>
+							<span>
+              <a href="https://github.com/andrwsalcdo/udacity-online-resume" class="fa fa-github fa-lg" aria-hidden="true"></a>
+            </span>
+						</figcaption>
+					</figure>
+					<figure class="col-md-4 col-sm-4 col-lg-4">
+						<picture>
+							<!--TODO: make the images with srcset and media query  -->
+							<img src="img/Frogger.JPG" alt="Classic Frogger Clone" class="img-responsive img img-rounded"
+							data-toggle="modal" data-target="#project5">
+						</picture>
+						<figcaption class="project-link">
+							<h3 class="text-uppercase text-light">Classic Frogger Clone</h3>
+							<span>
+              <a href="https://github.com/andrwsalcdo/udacity-arcade-game" class="fa fa-github fa-lg" aria-hidden="true"></a>
+            </span>
+						</figcaption>
+					</figure>
+					<figure class="col-md-4 col-sm-4 col-lg-4">
+						<picture>
+							<!--TODO: make the images with srcset and media query  -->
+							<img src="img/PizzaOpt2.JPG" alt="Website Optimization" class="img-responsive img img-rounded"
+							data-toggle="modal" data-target="#project6">
+						</picture>
+						<figcaption class="project-link">
+							<h3 class="text-uppercase text-light">Website Optimization</h3>
+							<span>
+              <a href="https://github.com/andrwsalcdo/frontend-nanodegree-website-optimization" class="fa fa-github fa-lg" aria-hidden="true"></a>
+            </span>
+						</figcaption>
+					</figure>
+					<figure class="col-md-4 col-sm-4 col-lg-4">
+						<picture>
+							<!--TODO: make the images with srcset and media query  -->
+							<img src="img/Sw-mobile-map.jpeg" alt="Neighborhood Map" class="img-responsive img img-rounded"
+							data-toggle="modal" data-target="#project7">
+						</picture>
+						<figcaption class="project-link">
+							<h3 class="text-uppercase text-light">Neighborhood Map</h3>
+							<span>
+							<a href="https://github.com/andrwsalcdo/udacity-neighborhood-map" class="fa fa-github fa-lg" aria-hidden="true"></a>
+						</span>
+						</figcaption>
+					</figure>
+
+				</figure>
+				<section class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</section>
+			</div>
+		</section>
+
+
+		<!-- Footer begins...-->
+		<footer class="row">
+			<section class="col-sm-12 col-md-12 col-lg-12">
+				<h3 class="footer-text text-light">
+          See My Work @
+          <a href="https://github.com/andrwsalcdo" class="fa fa-github fa-3x" aria-hidden="true" target="_blank"></a>
+        </h3>
+			</section>
+		</footer>
+
+
+
+
+	</div>
+	<!--/.div container -->
+
+	<!-- footer background img.  -->
+	<footer class="footer-box"></footer>
+
+
+	<!-- Modals begin -->
+
+	<!-- modal 1 -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title" id="myModalLabel1">Mockup to Article</h3>
+				</div>
+				<div class="modal-body"> <img class="img-responsive img-rounded" src="img/mockup-article.jpeg"
+					alt="blog mockup design">
+					<div class="modal-text">
+						<p>The first project in the Front-End Web Developer Nanodegree program.
+							The goal was to translate a simple design mockup into working HTML.</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal 2 -->
+	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title" id="myModalLabel2">Animal Trading Card</h3>
+				</div>
+				<div class="modal-body"> <img class="img-responsive img-rounded" src="img/animal-3.4.jpeg" alt="Chewbacca trading card">
+					<div class="modal-text">
+						<p> Given an HTMl structure, use CSS to convert a design prototype of
+							an animal trading card into a functional page. I chose a different
+							animal, changed HTML content and used CSS to complete the project.
+							</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- TODO: add modals for Frogger, Resume, & Website Projects. -->
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title" id="myModalLabel4">Interactive Resume</h3>
+			</div>
+			<div class="modal-body"> <img class="img-responsive img-rounded" src="img/HanResume.JPG" alt="Han Solo Resume">
+				<div class="modal-text">
+					<p> Using Javascript objects and jQuery to manipulate the DOM to create an interactive Resume.
+						I customized CSS and used Bootstrap to make the page responsive across all viewports.
+						Displays a Google Map thanks to provided resources.
+						</p>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title" id="myModalLabel5">Classic Frogger Clone</h3>
+			</div>
+			<div class="modal-body"> <img class="img-responsive img-rounded" src="img/Frogger.JPG" alt="Frogger Game">
+				<div class="modal-text">
+					<p> Provided with visual assets and a game loop engine;
+						I used Javascript and HTML5 Canvas to recreate the classic arcade game Frogger.
+						</p>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title" id="myModalLabel6">Website Optimization </h3>
+			</div>
+			<div class="modal-body"> <img class="img-responsive img-rounded" src="img/PizzaOpt2.JPG" alt="pizza shop">
+				<div class="modal-text">
+					<p> Optimize a provided website with a number of optimization-
+						and performance-related issues so that it achieves a 90 PageSpeed score and runs at 60 frames per second.
+						I used GIMP for images, chrome dev tools, and google PageSpeed.
+						</p>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="project7" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title" id="myModalLabel7">Neighborhood Map</h3>
+			</div>
+			<div class="modal-body"> <img class="img-responsive img-rounded" src="img/Sw-mobile-map.jpeg" alt="Star Wars Yelp Map">
+				<div class="modal-text">
+					<p> Use Knockout.js's MVVM framework and third-party APIs to display additional information and implement various features on chosen locations within a neighborhood.
+						I used Google Maps API V3 and Yelp API V2 to display information on local restaurants and bars around the Orange County Convention Center in Orlando, FL.
+						I used Bootstrap for responsive design.
+						</p>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
